@@ -39,10 +39,10 @@ namespace QuantConnect.Algorithm.CSharp
         public override void Initialize()
         {
             // Set requested data resolution
-            UniverseSettings.Resolution = Resolution.Minute;
+            UniverseSettings.Resolution = Resolution.Daily;
 
             SetStartDate(2013, 10, 07);  //Set Start Date
-            SetEndDate(2013, 10, 11);    //Set End Date
+            SetEndDate(2022, 10, 11);    //Set End Date
             SetCash(100000);             //Set Strategy Cash
 
             // Find more symbols here: http://quantconnect.com/data
